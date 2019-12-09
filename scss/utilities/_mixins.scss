@@ -1,0 +1,7 @@
+//  MIXINS
+
+@mixin width ($br-min){
+    @media (min-width:$br-min){
+        
+    }
+}
