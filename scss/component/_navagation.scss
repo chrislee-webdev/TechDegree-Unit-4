@@ -21,7 +21,11 @@
       color .2s ease-in-out;
       @include width ($br-min) {
       flex-basis: 100px;
-    }
+      }
+      &-link:hover {
+        color: $white;
+        background-color: $turquoise;
+      }
     }
   }
  
@@ -41,8 +45,10 @@
   }
   */
   
+  /*
   .nav-link:hover {
     color: $white;
     background-color: $turquoise;
   }
+  */
   
