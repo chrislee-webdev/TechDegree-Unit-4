@@ -14,21 +14,41 @@
   }
   
   .default {
-    background-color: $light-blue;
+    transition:background-color 0.2s ease;
+    background-color: $light-blue;   
+    &:hover{
+      background-color:lighten($light-blue,15%);
+    }
   }
   
   .error {
+    transition:background-color 0.2s ease;
     background-color: $light-red;
+    &:hover{
+      background-color:lighten($light-red,15%);
+    }
   }
   
   .info {
+    transition:background-color 0.2s ease;
     background-color: $lavender;
+    &:hover{
+      background-color:lighten($lavender,15%);
+    }
   }
   
   .success {
+    transition:background-color 0.2s ease;
     background-color: $green;
+    &:hover{
+      background-color:lighten($green,15%);
+    }
   }
   
   .warning {
+    transition:background-color 0.2s ease;
     background-color: $light-orange;
+    &:hover{
+      background-color:lighten($light-orange,15%);
+    }
   }
