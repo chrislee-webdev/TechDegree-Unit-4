@@ -8,6 +8,9 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    @include width ($br-min){
+      padding: 10px 30px;
+    }
   }
   
   .default {

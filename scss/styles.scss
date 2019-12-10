@@ -5,8 +5,10 @@
 @import 'base/normalize',
         'base/typography';
 
-@import 'component/button',
+@import 
+        'component/button',
+        'component/grid',
         'component/form',   
-        'component/navagation',
-        'component/grid';
+        'component/navagation';
+        
 

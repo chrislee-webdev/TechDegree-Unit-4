@@ -2,6 +2,6 @@
 
 @mixin width ($br-min){
     @media (min-width:$br-min){
-        
+        @content;
     }
 }
